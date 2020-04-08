@@ -78,10 +78,10 @@
 		622B97D7243E503B00F95900 /* i-want */ = {
 			isa = PBXGroup;
 			children = (
-				62CA45E2243E51AE00A464E9 /* HomeViewController */,
-				622B97F0243E516300F95900 /* HomeDetailViewController */,
 				622B97D8243E503B00F95900 /* AppDelegate.swift */,
 				622B97DA243E503B00F95900 /* SceneDelegate.swift */,
+				62CA45E2243E51AE00A464E9 /* HomeViewController */,
+				622B97F0243E516300F95900 /* HomeDetailViewController */,
 				622B97DE243E503B00F95900 /* Main.storyboard */,
 				622B97E1243E503C00F95900 /* Assets.xcassets */,
 				622B97E3243E503C00F95900 /* LaunchScreen.storyboard */,
@@ -93,12 +93,12 @@
 		622B97F0243E516300F95900 /* HomeDetailViewController */ = {
 			isa = PBXGroup;
 			children = (
+				62CA45D6243E518500A464E9 /* HomeDetailProtocols.swift */,
+				62CA45D8243E518500A464E9 /* HomeDetailWireframe.swift */,
+				62CA45DB243E518500A464E9 /* HomeDetailPresenter.swift */,
+				62CA45D9243E518500A464E9 /* HomeDetailViewController.swift */,
 				62CA45DA243E518500A464E9 /* HomeDetailInteractor.swift */,
 				62CA45D7243E518500A464E9 /* HomeDetailModel.swift */,
-				62CA45DB243E518500A464E9 /* HomeDetailPresenter.swift */,
-				62CA45D6243E518500A464E9 /* HomeDetailProtocols.swift */,
-				62CA45D9243E518500A464E9 /* HomeDetailViewController.swift */,
-				62CA45D8243E518500A464E9 /* HomeDetailWireframe.swift */,
 			);
 			path = HomeDetailViewController;
 			sourceTree = "<group>";
@@ -106,12 +106,12 @@
 		62CA45E2243E51AE00A464E9 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				62CA45E8243E51B500A464E9 /* HomeInteractor.swift */,
-				62CA45E6243E51B500A464E9 /* HomePresenter.swift */,
 				62CA45E7243E51B500A464E9 /* HomeProtocols.swift */,
-				62CA45E5243E51B500A464E9 /* HomeScreenDataModel.swift */,
-				62CA45E3243E51B500A464E9 /* HomeViewController.swift */,
 				62CA45E4243E51B500A464E9 /* HomeWireframe.swift */,
+				62CA45E6243E51B500A464E9 /* HomePresenter.swift */,
+				62CA45E3243E51B500A464E9 /* HomeViewController.swift */,
+				62CA45E8243E51B500A464E9 /* HomeInteractor.swift */,
+				62CA45E5243E51B500A464E9 /* HomeScreenDataModel.swift */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
